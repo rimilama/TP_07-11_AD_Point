@@ -10,5 +10,9 @@ public:
 	void Deplace(float, float);
 	float Abscisse();
 	float Ordonnee();
+	void Homothetie(float);
+	float Rho(CPoint);
+	float Theta(float);
+	void Rotation(float);
 };
 

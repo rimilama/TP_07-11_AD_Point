@@ -8,6 +8,7 @@ private:
 public:
 	CPoint(float, float);
 	void Deplace(float, float);
-	void Affiche();
+	float Abscisse();
+	float Ordonnee();
 };
 
